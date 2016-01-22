@@ -1,7 +1,7 @@
 <?php
 
 /**
- * core/MY_Modle.php
+ * core/MY_Model.php
  *
  * Default application model
  */
