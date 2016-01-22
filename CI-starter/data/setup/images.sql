@@ -17,33 +17,33 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `gallery`
+-- Database: 'gallery'
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `images`
+-- Table structure for table 'images'
 --
 
-CREATE TABLE IF NOT EXISTS `images` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `filename` varchar(256) NOT NULL,
-  `category` varchar(32) NOT NULL,
-  `title` varchar(256) NOT NULL,
-  `photographer` varchar(128) NOT NULL,
-  `photo_date` varchar(16) NOT NULL,
-  `origin` varchar(256) NOT NULL,
-  `uploaded` varchar(16) NOT NULL,
-  `uploader` varchar(10) NOT NULL,
-  PRIMARY KEY (`id`)
+CREATE TABLE IF NOT EXISTS 'images' (
+  'id' int(11) NOT NULL AUTO_INCREMENT,
+  'filename' varchar(256) NOT NULL,
+  'category' varchar(32) NOT NULL,
+  'title' varchar(256) NOT NULL,
+  'photographer' varchar(128) NOT NULL,
+  'photo_date' varchar(16) NOT NULL,
+  'origin' varchar(256) NOT NULL,
+  'uploaded' varchar(16) NOT NULL,
+  'uploader' varchar(10) NOT NULL,
+  PRIMARY KEY ('id')
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
 
 --
--- Dumping data for table `images`
+-- Dumping data for table 'images'
 --
 
-INSERT INTO `images` (`id`, `filename`, `category`, `title`, `photographer`, `photo_date`, `origin`, `uploaded`, `uploader`) VALUES
+INSERT INTO 'images' ('id', 'filename', 'category', 'title', 'photographer', 'photo_date', 'origin', 'uploaded', 'uploader') VALUES
 (1, '5187516909_d07a5beb13_b.jpg', 'landscape', 'Scientists in Antarctic landscape', 'Dr. Mike Goebel', '2010', 'http://tcktcktck.org/2013/01/scientists-in-antarctic-landscape-photo/42194', '2014.04.01', 'donald'),
 (2, 'new-zealand-landscape-cc-2006-big.jpg', 'landscape', 'New Zealand landscape', 'unknown', '2006', 'http://tcktcktck.org/2013/08/new-zealand-landscape-photo/56706', '2014.04.02', 'mickey'),
 (3, 'serengeti-landscape.jpg', 'landscape', 'Beautiful Landscape of Serengeti', 'epcprince', '2011.01.14', 'http://famouswonders.com/serengeti-migration-from-tanzania-to-kenya/', '2014.04.05', 'donald'),
